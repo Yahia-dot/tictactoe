@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <!-- Grid lines -->
+    <path
+        android:strokeColor="#3F4A6B"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M48,24 L48,104" />
+    <path
+        android:strokeColor="#3F4A6B"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M80,24 L80,104" />
+    <path
+        android:strokeColor="#3F4A6B"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M24,48 L104,48" />
+    <path
+        android:strokeColor="#3F4A6B"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M24,80 L104,80" />
+
+    <!-- X in top-left cell (slightly shifted up and left) -->
+    <path
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M24,24 L40,40 M40,24 L24,40" />
+
+    <!-- O in center cell -->
+    <path
+        android:strokeColor="#1976D2"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"
+        android:pathData="M64,64 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" />
+</vector>
+
+
+
+
