@@ -1,6 +1,7 @@
 package com.example.tictactoe_v02.ui.screens
 
 import android.content.Context
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.*
@@ -9,6 +10,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.material3.TextFieldDefaults
+import androidx.compose.foundation.Image
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
@@ -35,12 +37,10 @@ fun PlayerCreationScreen(navController: NavController, viewModel: GameViewModel)
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Animated logo/icon
-            Icon(
-                painter = painterResource(R.drawable.ic_tictactoe_logo), // Add your own vector asset
-                contentDescription = "Tic Tac Toe Logo",
-                tint = MaterialTheme.colorScheme.primary,
-                modifier = Modifier.size(120.dp)
+            Image(
+                painter = painterResource(R.drawable.ic_tictactoe_logo),
+                contentDescription = "Battleships Logo",
+                modifier = Modifier.size(200.dp)
             )
 
             Spacer(modifier = Modifier.height(32.dp))
